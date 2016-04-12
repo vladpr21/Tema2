@@ -3,40 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.happybirthday.MainActivity">
+    tools:context="com.example.android.beerinvitation.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@null"
         android:scaleType="centerCrop"
         android:src="@drawable/beer" />
-
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Hai sa bei o bere buna alaturi de "
-        android:textColor="@android:color/black" android:textSize="25sp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:text="fratii tai, azi de la ora 18 la "
-        android:textColor="@android:color/black"
-        android:textSize="25sp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:text="Fabrica de Bere !"
+        android:gravity="center_horizontal"
+        android:text="Hai sa bei o bere buna alaturi de\nfratii tai, azi de la ora 18 la\nFabrica de Bere !"
         android:textColor="@android:color/black"
         android:textSize="25sp" />
 
@@ -44,18 +26,10 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView5"
-        android:layout_alignParentRight="true"
-        android:text="De la Vlad, "
-        android:textColor="@android:color/black"
-        android:textSize="30sp" />
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="Pentru barbatul din tine !"
+        android:gravity="end"
+        android:text="De la Vlad,\nPentru barbatul din tine ! "
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
